@@ -64,7 +64,7 @@ public class Main {
     public static void task3(){
         System.out.println("\nЗадание 3" );
         int ourYear = 2022, pastYear = ourYear - 200, futureYear = ourYear + 100;
-    for ( int x = pastYear; x<ourYear|| x >=ourYear && x<futureYear; x++) {
+    for ( int x = pastYear; x<futureYear; x++) {
         if (x%79==0)
             System.out.println(x);
     }
